@@ -50,7 +50,7 @@ O maior "culpado" aqui provavelmente vai ser o `pacman -Syu` que vai fazer um sy
 
 Digamos que você fez um upgrade geral no dia anterior, tudo parecia funcionar tranquilo e você desligou o computador. Hoje você liga o computador e não consegue mais se conectar a sua wifi. Além disso você nota incontáveis outros pacotes não funcionando. Hora de voltar no tempo.
 
-Pra te dar uma solução raṕida, rode o seguinte script provendo as infromações necessárias (adaptado de https://linuxconfig.org/how-to-rollback-pacman-updates-in-arch-linux):
+Pra te dar uma solução rápida, rode o seguinte script provendo as infromações necessárias (adaptado de https://linuxconfig.org/how-to-rollback-pacman-updates-in-arch-linux):
 
 ```
 cat > revert-upgrade.sh <<EOF
