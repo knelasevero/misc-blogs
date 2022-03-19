@@ -15,6 +15,7 @@ Vou falar de como reverter upgrades catastróficos, e disponibilizar alguns util
 * [4 - Cenário e solução rápida](#cenario)
 * [5 - Caso o pacote não esteja no cache](#nocache)
 * [6 - Caso o pacote não esteja em nenhum cache](#nonocache)
+* [7 - Caso venha treta de video e nao levante DE/WM](#video)
 
 <br>
 
@@ -96,3 +97,12 @@ Se você limpou o cache do pacman, ou se por algum outro motivo o pacote antigo 
 ```
 sudo pacman -U https://archive.archlinux.org/packages/path/packagename.pkg.tar.xz
 ```
+
+<br>
+
+<a name="video"></a>
+## [7 - Caso venha treta de video e nao levante DE/WM](#video)
+
+Se seu Desktop Environment ou Window Manager (interface gráfica) não levantar por conta de upgrade, ainda tem como acessar um tty para rodar comandos, e não é necessário bootar de outro sistema.
+
+Quando o sistema iniciar e tiver na tela de erro que não te deixar avançar, pressione CTRL+ALT+F6 (Qualquer F na verdade, cada um vai ser um tty diferente, o F1, no manjaro, no GNOME, é o tty principal que levanta a interface gráfica). No tty novo você vai poder colocar seu usuário e senha, e em seguida você terá um terminal para rodar comandos. Basta usálo para passar pelos passos que descrevemos nas sessões anteriores.
